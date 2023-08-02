@@ -1,0 +1,84 @@
+*{
+    font-family: 'Agdasima', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #215577;
+}
+h2{
+    font-size: 25px;
+}
+body{
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+}
+nav{
+    background: linear-gradient(#215577,#000000);
+}
+.nav-link{
+    color: white;
+    position: relative;
+}
+.nav-link:hover::after{
+    opacity: 1;
+}
+.nav-link::after{
+    transition: all 1s;
+    opacity: 0;
+    width: 100%;
+    background-color: #215577;
+    height: 2px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.footer{
+    background: linear-gradient(#000000,#215577);
+}
+.btn{
+    color: #215577;
+    border: #215577 solid 3px;
+    font-size: 20px;
+}
+.btn:hover{
+    color: black;
+    background-color: #215577;
+    transition: all 1s;
+}
+.bottom-button{
+  border-color:black;
+  color: black;  
+}
+.bottom-button:hover{
+    color: #215577;
+    background-color: black;
+    transition: all 1s;
+}
+.table{
+    background-color: #215577 ;
+    color: #ffffff;
+}
+tr:hover{
+    background-color: black;
+    color:#215577;
+    transition: all 1s;
+}
+
+
+
+
+
+
